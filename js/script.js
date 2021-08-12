@@ -41,7 +41,7 @@ function readMessage(data) {
             pc.setRemoteDescription(new RTCSessionDescription(msg.sdp));
     }
 };
-
+///////
 database.on('child_added', readMessage);
 
 function showMyFace() {
@@ -49,9 +49,10 @@ function showMyFace() {
     .then(stream => yourVideo.srcObject = stream)
     .then(stream => pc.addStream(stream));
 }
-
+////////////
 function showFriendsFace() {
   pc.createOffer()
     .then(offer => pc.setLocalDescription(offer) )
     .then(() => sendMessage(yourId, JSON.stringify({'sdp': pc.localDescription})) );
 }
+//////////////
