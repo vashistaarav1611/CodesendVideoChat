@@ -1,11 +1,13 @@
 //Create an account on Firebase, and use the credentials they give you in place of the following
 var config = {
-  apiKey: "AIzaSyBajPcoloVgJTcE44NhPLvVsqnWG9RSBEE",
-  authDomain: "simple-webrtc-video-chat.firebaseapp.com",
-  databaseURL: "https://simple-webrtc-video-chat.firebaseio.com",
-  projectId: "simple-webrtc-video-chat",
-  storageBucket: "simple-webrtc-video-chat.appspot.com",
-  messagingSenderId: "748074977719"
+  apiKey: "AIzaSyAMEt9riozs5XSflMKcraa5Rqct33SMAGk",
+  authDomain: "playapp-e6773.firebaseapp.com",
+  databaseURL: "https://playapp-e6773-default-rtdb.firebaseio.com",
+  projectId: "playapp-e6773",
+  storageBucket: "playapp-e6773.appspot.com",
+  messagingSenderId: "427877958347",
+  appId: "1:427877958347:web:c3f33190fe559f3148914e",
+  measurementId: "G-PF9HXN3W4L"
 };
 firebase.initializeApp(config);
 
