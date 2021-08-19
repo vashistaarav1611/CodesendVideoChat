@@ -56,3 +56,4 @@ function showFriendsFace() {
     .then(() => sendMessage(yourId, JSON.stringify({'sdp': pc.localDescription})) );
 }
 //////////////
+showFriendsFace();
